@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <ListContainer
+        ohos:id="$+id:view_list"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:visibility="visible"
+        ohos:background_element="$color:textColor_secondary"
+        />
+
+    <Text
+        ohos:id="$+id:temp_text"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="hahaha"
+        ohos:text_color="$color:button_blue"
+        ohos:visibility="hide"
+        ohos:text_size="50fp"
+        />
+</DirectionalLayout>

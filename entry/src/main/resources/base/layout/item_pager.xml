@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:default_doubleLine_list"
+    ohos:height="match_parent"
+    ohos:width="400vp"
+    ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:item_text"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_color="$color:textColor_primary"
+        ohos:text="hahah"
+        ohos:text_size="50fp"/>
+
+    <com.example.testharmong.find.BaseListView
+        ohos:id="$+id:listView"
+        ohos:height="match_parent"
+        ohos:width="match_parent"/>
+</DirectionalLayout>

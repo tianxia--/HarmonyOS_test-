@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "TestHarmong"
+    },
+    {
+      "name": "info",
+      "value": "资讯"
+    },
+    {
+      "name": "my",
+      "value": "我的"
+    },
+    {
+      "name": "find",
+      "value": "发现"
+    },
+    {
+      "name": "chat",
+      "value": "聊天"
+    },
+    {
+      "name": "copyright_text",
+      "value": "XXXXXX All rights reserved. ©2011-2019"
+    },
+    {
+      "name": "technicalSupport_text",
+      "value": "Technical support: XXXXXXX"
+    }
+  ]
+}

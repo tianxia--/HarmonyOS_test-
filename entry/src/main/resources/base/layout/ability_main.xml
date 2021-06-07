@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:ability_main"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <TabList
+        ohos:height="$float:height_appBar"
+        ohos:width="match_parent"
+        ohos:id="$+id:main_page_tablist"
+        ohos:top_margin="10vp"
+        ohos:tab_margin="24vp"
+        ohos:tab_length="140vp"
+        ohos:text_size="20fp"
+        ohos:layout_alignment="center"
+        ohos:orientation="horizontal"
+        ohos:text_alignment="center"
+        ohos:normal_text_color="$color:botton_select_blue"
+        ohos:selected_text_color="$color:button_blue"
+        ohos:selected_tab_indicator_color="$color:divider_color"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="$color:divider_color"
+        ohos:selected_tab_indicator_height="2vp"
+        />
+    <PageSlider
+        ohos:id="$+id:pageslider"
+        ohos:height="match_parent"
+        ohos:width="match_content"
+        ohos:visibility="visible"
+        ohos:above="$id:main_page_tablist"
+        ohos:layout_alignment="horizontal_center"/>
+    <Text
+        ohos:id="$+id:tab_content"
+        ohos:width="match_parent"
+        ohos:height="match_parent"
+        ohos:text_alignment="center"
+        ohos:background_element="#70dbdb"
+        ohos:text_color="#2e2e2e"
+        ohos:visibility="hide"
+        ohos:text_size="16fp"/>
+
+    <ListContainer
+        ohos:id="$+id:list_temp"
+        ohos:height="match_parent"
+        ohos:background_element="$color:button_blue"
+        ohos:visibility="hide"
+        ohos:width="match_parent"/>
+</DependentLayout>
